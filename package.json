@@ -1,0 +1,10 @@
+{
+  "name": "@kauefraga/fast-repo",
+  "version": "1.0.0",
+  "description": "⚡ Initialize your projects as fast as you want.",
+  "repository": "https://github.com/kauefraga/fast-repo.git",
+  "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {}
+}
