@@ -14,8 +14,6 @@
     "sourceType": "module"
   },
   "rules": {
-    "import/prefer-default-export": "off",
-    "no-console": "off",
-    "@typescript-eslint/no-unused-expressions": "off"
+    "import/prefer-default-export": "off"
   }
 }
