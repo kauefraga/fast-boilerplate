@@ -5,9 +5,11 @@
   "repository": "https://github.com/kauefraga/fast-repo.git",
   "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>",
   "license": "MIT",
-  "main": "index.js",
+  "main": "dist/cli/bin.js",
   "scripts": {
-    "dev": "tsnd --respawn --transpile-only src/cli/bin.ts",
+    "build": "tsup src/",
+    "start": "node .",
+    "dev": "tsx src/cli/bin.ts",
     "lint": "eslint --ext .ts,.spec.ts"
   },
   "devDependencies": {
@@ -18,7 +20,8 @@
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-plugin-import": "^2.25.2",
-    "ts-node-dev": "^2.0.0",
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.6",
     "typescript": "^4.9.5"
   },
   "dependencies": {
