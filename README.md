@@ -45,8 +45,8 @@ To run this project you will need to have [Node](https://nodejs.org/en).
 git clone https://github.com/kauefraga/fast-repo.git
 cd fast-repo
 
-yarn
-# Has nothing to try out now...
+pnpm build
+pnpm start
 ```
 You are welcome to open issues and pull requests!
 
@@ -54,9 +54,11 @@ You are welcome to open issues and pull requests!
 
 The following tools have been used to build the project:
 
-- 🔮 [Node](https://nodejs.org/en) - A runtime based on V8 JavaScript.
-- 💄 [Eslint](https://www.npmjs.com/package/eslint-config-airbnb-typescript) - Code ruler/styler with Airbnb style guide.
-- 👩‍💻 [Typescript](https://typescriptlang.org) + [TS-Node-Dev](https://npm.im/ts-node-dev) - Improve dev experience by adding type safety and hot reloading.
+- [Node](https://nodejs.org/en) - A runtime based on V8 JavaScript.
+- [Enquirer](https://npm.im/enquirer) - "Stylish CLI prompts that are user-friendly, intuitive and easy to create".
+- [Git interface](https://npm.im/git-interface) - Interface to work with a git repository in nodejs.
+- [Eslint](https://npm.im/eslint-config-airbnb-typescript) - Code ruler/styler with Airbnb style guide.
+- [Typescript](https://typescriptlang.org), [tsx](https://www.npmjs.com/package/tsx) and [tsup](https://www.npmjs.com/package/tsup) - Improve the DX by adding type safety and a blazingly fast execution/build provided by esbuild.
 
 <!-- ## 📜 Coming soon... -->
 
