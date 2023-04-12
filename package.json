@@ -6,6 +6,13 @@
   "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>",
   "license": "MIT",
   "main": "dist/cli/bin.js",
+  "bin": {
+    "@kauefraga/fast-repo": "./dist/cli/bin.js",
+    "fast-repo": "./dist/cli/bin.js"
+  },
+  "files": [
+    "dist/"
+  ],  
   "scripts": {
     "prepublishOnly": "tsup src/",
     "build": "tsup src/",
