@@ -4,19 +4,23 @@ specifiers:
   '@types/node': ^18.13.0
   '@typescript-eslint/eslint-plugin': ^5.13.0
   '@typescript-eslint/parser': ^5.0.0
+  ansi-colors: ^4.1.3
   enquirer: ^2.3.6
   eslint: ^8.2.0
   eslint-config-airbnb-base: 15.0.0
   eslint-config-airbnb-typescript: ^17.0.0
   eslint-plugin-import: ^2.25.2
   git-interface: ^2.1.2
+  nanospinner: ^1.1.0
   tsup: ^6.7.0
   tsx: ^3.12.6
   typescript: ^4.9.5
 
 dependencies:
+  ansi-colors: 4.1.3
   enquirer: 2.3.6
   git-interface: 2.1.2
+  nanospinner: 1.1.0
 
 devDependencies:
   '@types/node': 18.13.0
@@ -1602,6 +1606,12 @@ packages:
       thenify-all: 1.6.0
     dev: true
 
+  /nanospinner/1.1.0:
+    resolution: {integrity: sha512-yFvNYMig4AthKYfHFl1sLj7B2nkHL4lzdig4osvl9/LdGbXwrdFRoqBS98gsEsOakr0yH+r5NZ/1Y9gdVB8trA==}
+    dependencies:
+      picocolors: 1.0.0
+    dev: false
+
   /natural-compare-lite/1.4.0:
     resolution: {integrity: sha512-Tj+HTDSJJKaZnfiuw+iaF9skdPpTo2GtEly5JHnWV/hfv2Qj/9RKsGISQtLh2ox3l5EAGw487hnBee0sIJ6v2g==}
     dev: true
@@ -1733,6 +1743,10 @@ packages:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
     dev: true
+
+  /picocolors/1.0.0:
+    resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
+    dev: false
 
   /picomatch/2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
