@@ -57,6 +57,8 @@ The following tools have been used to build the project:
 - [Node](https://nodejs.org/en) - A runtime based on V8 JavaScript.
 - [Enquirer](https://npm.im/enquirer) - "Stylish CLI prompts that are user-friendly, intuitive and easy to create".
 - [Git interface](https://npm.im/git-interface) - Interface to work with a git repository in nodejs.
+- [Ansi colors](https://npm.im/ansi-colors) - Easily add ANSI colors to your text and symbols in the terminal.
+- [Nano spinner](https://npm.im/nanospinner) - The simplest and tiniest terminal spinner for Nodejs.
 - [Eslint](https://npm.im/eslint-config-airbnb-typescript) - Code ruler/styler with Airbnb style guide.
 - [Typescript](https://typescriptlang.org), [tsx](https://www.npmjs.com/package/tsx) and [tsup](https://www.npmjs.com/package/tsup) - Improve the DX by adding type safety and a blazingly fast execution/build provided by esbuild.
 
