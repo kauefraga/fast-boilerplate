@@ -1,6 +1,6 @@
 {
   "name": "fast-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "⚡ Initialize your projects as fast as you want.",
   "repository": "https://github.com/kauefraga/fast-repo.git",
   "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>",
@@ -12,6 +12,12 @@
   },
   "files": [
     "dist/"
+  ],
+  "keywords": [
+    "cli",
+    "boilerplates",
+    "typescript",
+    "nodejs"
   ],
   "scripts": {
     "prepublishOnly": "tsup src/",
