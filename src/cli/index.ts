@@ -11,7 +11,10 @@ export async function main() {
     message: 'Pick a boilerplate',
     choices: settings.boilerplate_names,
   })
-    .then((answer) => JSON.stringify(answer));
+    .then((answer) => JSON.stringify(answer))
+    .catch(() => {
+      throw new Error(c.bold.red('Prompt canceled!'));
+    });
 
   const { boilerplate } = JSON.parse(response);
 
@@ -24,7 +27,8 @@ export async function main() {
 
     await git.clone(settings.getBoilerplateUrl(boilerplate), boilerplate);
   } catch (err: any) {
-    console.error(c.red(err.message));
+    spinner.error({ text: 'Something went wrong.' });
+    process.exit(0);
   }
 
   spinner.success();
