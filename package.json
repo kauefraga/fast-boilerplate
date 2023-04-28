@@ -1,5 +1,5 @@
 {
-  "name": "@kauefraga/fast-repo",
+  "name": "fast-boilerplate",
   "version": "1.0.0",
   "description": "⚡ Initialize your projects as fast as you want.",
   "repository": "https://github.com/kauefraga/fast-repo.git",
@@ -7,12 +7,12 @@
   "license": "MIT",
   "main": "dist/cli/bin.js",
   "bin": {
-    "@kauefraga/fast-repo": "./dist/cli/bin.js",
-    "fast-repo": "./dist/cli/bin.js"
+    "@kauefraga/fast-boilerplate": "./dist/cli/bin.js",
+    "fast-bp": "./dist/cli/bin.js"
   },
   "files": [
     "dist/"
-  ],  
+  ],
   "scripts": {
     "prepublishOnly": "tsup src/",
     "build": "tsup src/",
