@@ -27,26 +27,24 @@
   </p>
 </div>
 
-<!-- ## ✨ Features
+## ✨ Features
 
-- **Simple**: You just run it, choose your boilerplate and done!
-- **Pretty UI**: A minimal UI that exposes everything you need.
-- **Colorized Outputs**: Everything looks better with some colors.
-- **Easy Usage**: If you need some help, just use the flag `--help` -->
+- **Colorized Outputs**: Terminal looks so cool with some colors.
+- **Easy and Fast Usage**: Just type `npx fast-boilerplate` and choose the boilerplate.
+- **Modern Boilerplates**: Take a look at [typed-js-lib](https://github.com/kauefraga/typed-js-lib) & [express-ts-api](https://github.com/kauefraga/express-ts-api).
 
 ## 🎲 Prerequisites
 
 To run this project you will need to have [Node](https://nodejs.org/en).
 - Node Version Managers: [fnm](https://github.com/Schniz/fnm), [nvm](https://github.com/nvm-sh/nvm), [asdf](https://asdf-vm.com)...
 
-## ⬇️ How to install and use it
+## ⬇️ How to install and develop
 
 ```bash
 git clone https://github.com/kauefraga/fast-repo.git
 cd fast-repo
 
-pnpm build
-pnpm start
+pnpm dev
 ```
 You are welcome to open issues and pull requests!
 
