@@ -4,6 +4,7 @@ class Settings {
   constructor() {
     this.boilerplates = new Map<string, string>();
     this.boilerplates.set('express-ts-api', 'https://github.com/kauefraga/express-ts-api.git');
+    this.boilerplates.set('fastify-ts-api', 'https://github.com/kauefraga/fastify-ts-api.git');
     this.boilerplates.set('typed-js-lib', 'https://github.com/kauefraga/typed-js-lib.git');
   }
 
