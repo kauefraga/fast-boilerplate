@@ -18,7 +18,7 @@ export async function main() {
 
   const { boilerplate } = JSON.parse(response);
 
-  const git = new Git({ dir: __dirname });
+  const git = new Git({ dir: process.cwd() });
 
   const spinner = createSpinner('Cloning...');
 
@@ -34,6 +34,6 @@ export async function main() {
   spinner.success();
 
   console.log(
-    c.green(`Done! You can locate it at ${c.bold.underline(`${__dirname}/${boilerplate}`)}`),
+    c.green(`Done! You can locate it at ${c.bold.underline(`${process.cwd()}/${boilerplate}`)}`),
   );
 }
