@@ -1,5 +1,5 @@
 <div align="center">
-  <h1><code>Fast Repo</code></h1>
+  <h1><code>Fast Boilerplate</code></h1>
 
   <p>
     <strong>⚡ Initialize your projects as fast as you want. ⚡</strong>
@@ -8,21 +8,21 @@
   <p>
     <img
       alt="GitHub top language"
-      src="https://img.shields.io/github/languages/top/kauefraga/fast-repo.svg"
+      src="https://img.shields.io/github/languages/top/kauefraga/fast-boilerplate.svg"
     />
     <img
       alt="Repository size"
-      src="https://img.shields.io/github/repo-size/kauefraga/fast-repo.svg"
+      src="https://img.shields.io/github/repo-size/kauefraga/fast-boilerplate.svg"
     />
-    <a href="https://github.com/kauefraga/fast-repo/commits/main">
+    <a href="https://github.com/kauefraga/fast-boilerplate/commits/main">
       <img
         alt="GitHub last commit"
-        src="https://img.shields.io/github/last-commit/kauefraga/fast-repo.svg"
+        src="https://img.shields.io/github/last-commit/kauefraga/fast-boilerplate.svg"
       />
     </a>
     <img
       alt="GitHub LICENSE"
-      src="https://img.shields.io/github/license/kauefraga/fast-repo.svg"
+      src="https://img.shields.io/github/license/kauefraga/fast-boilerplate.svg"
     />
   </p>
 </div>
@@ -31,7 +31,7 @@
 
 - **Colorized Outputs**: Terminal looks so cool with some colors.
 - **Easy and Fast Usage**: Just type `npx fast-boilerplate` and choose the boilerplate.
-- **Modern Boilerplates**: Take a look at [typed-js-lib](https://github.com/kauefraga/typed-js-lib) & [express-ts-api](https://github.com/kauefraga/express-ts-api).
+- **Modern Boilerplates**: Take a look at [typed-js-lib](https://github.com/kauefraga/typed-js-lib), [express-ts-api](https://github.com/kauefraga/express-ts-api) & [fastify-ts-api](https://github.com/kauefraga/fastify-ts-api).
 
 ## 🎲 Prerequisites
 
@@ -41,7 +41,7 @@ To run this project you will need to have [Node](https://nodejs.org/en).
 ## ⬇️ How to install and develop
 
 ```bash
-git clone https://github.com/kauefraga/fast-repo.git
+git clone https://github.com/kauefraga/fast-boilerplate.git
 cd fast-repo
 
 pnpm dev
@@ -60,11 +60,9 @@ The following tools have been used to build the project:
 - [Eslint](https://npm.im/eslint-config-airbnb-typescript) - Code ruler/styler with Airbnb style guide.
 - [Typescript](https://typescriptlang.org), [tsx](https://www.npmjs.com/package/tsx) and [tsup](https://www.npmjs.com/package/tsup) - Improve the DX by adding type safety and a blazingly fast execution/build provided by esbuild.
 
-<!-- ## 📜 Coming soon... -->
-
 ## 📝 License
 
-This project is licensed under the MIT License - See the [LICENSE](https://github.com/kauefraga/fast-repo/blob/main/LICENSE) for more information.
+This project is licensed under the MIT License - See the [LICENSE](https://github.com/kauefraga/fast-boilerplate/blob/main/LICENSE) for more information.
 
 ---
 
