@@ -27,6 +27,8 @@
   </p>
 </div>
 
+> I have been too weary of always writing the same boilerplate code, hence i developed this project that clone my boilerplates.
+
 ## ✨ Features
 
 - **Colorized Outputs**: Terminal looks so cool with some colors.
@@ -42,7 +44,7 @@ To run this project you will need to have [Node](https://nodejs.org/en).
 
 ```bash
 git clone https://github.com/kauefraga/fast-boilerplate.git
-cd fast-repo
+cd fast-boilerplate
 
 pnpm dev
 ```
@@ -58,7 +60,7 @@ The following tools have been used to build the project:
 - [Ansi colors](https://npm.im/ansi-colors) - Easily add ANSI colors to your text and symbols in the terminal.
 - [Nano spinner](https://npm.im/nanospinner) - The simplest and tiniest terminal spinner for Nodejs.
 - [Eslint](https://npm.im/eslint-config-airbnb-typescript) - Code ruler/styler with Airbnb style guide.
-- [Typescript](https://typescriptlang.org), [tsx](https://www.npmjs.com/package/tsx) and [tsup](https://www.npmjs.com/package/tsup) - Improve the DX by adding type safety and a blazingly fast execution/build provided by esbuild.
+- [Typescript](https://typescriptlang.org), [tsx](https://npm.im/tsx) and [tsup](https://npm.im/tsup) - Improve the DX by adding type safety and a blazingly fast execution/build provided by esbuild.
 
 ## 📝 License
 
